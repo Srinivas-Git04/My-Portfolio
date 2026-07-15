@@ -122,22 +122,32 @@ export default function Projects() {
           <div
             key={index}
             className="
-              p-6
-              rounded-2xl
-              bg-white/10
-              backdrop-blur-lg
-              border border-white/10
-              hover:scale-105
-              transition duration-300
-            "
+                group
+                overflow-hidden
+                rounded-3xl
+                bg-white/5
+                backdrop-blur-xl
+                border border-white/10
+                hover:border-blue-500/40
+                hover:shadow-[0_0_40px_rgba(59,130,246,0.25)]
+                transition-all
+                duration-500
+                "
           >
             <Image
                 src={project.image}
                 alt={project.title}
                 width={800}
                 height={450}
-                className="w-full h-56 object-contain rounded-xl mb-5 bg-gray-900 p-2"
-                />
+                className="
+                w-full
+                h-60
+                object-cover
+                group-hover:scale-110
+                transition-transform
+                duration-700
+                "
+                />                
 
             <h3 className="text-2xl font-bold">
               {project.title}
@@ -205,6 +215,7 @@ export default function Projects() {
 
 
           </div>
+
 
         ))}
 
