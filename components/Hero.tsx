@@ -104,21 +104,37 @@ export default function Hero() {
             {/* Right Side */}
             <motion.div
                 initial={{ opacity: 0, x: 40 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8 }}
+                animate={{
+                    opacity: 1,
+                    x: 0,
+                    y: [0, -10, 0],
+                }}
+                transition={{
+                    duration: 5,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                }}
                 className="flex justify-center md:justify-end"
-            >
+                >
                 <div className="relative">
                 <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-blue-500 to-purple-600 blur-3xl opacity-40"></div>
 
                 <Image
                     src="/profile/profile.jpg"
                     alt="Srinivas"
-                    width={420}
-                    height={520}
+                    width={700}
+                    height={900}
                     priority
-                    className="relative rounded-3xl object-cover border-2 border-white/10 shadow-2xl"
-                />
+                    className="relative
+                                w-[380px]
+                                h-[500px]
+                                lg:w-[450px]
+                                lg:h-[600px]
+                                object-cover
+                                rounded-3xl
+                                border-4 border-purple-500/40
+                                shadow-[0_0_60px_rgba(139,92,246,0.4)]"
+                    />
                 </div>
             </motion.div>
 
