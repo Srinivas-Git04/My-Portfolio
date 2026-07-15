@@ -19,7 +19,7 @@ export default function Navbar() {
           href="#home"
           className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"
         >
-          Srinivas Boddupalli
+          Srinivas.dev
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
