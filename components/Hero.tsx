@@ -9,6 +9,7 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen pt-24 flex items-center overflow-hidden px-6"
     >
+        
       {/* Background Glow */}
       <div className="absolute -top-20 -left-20 w-80 h-80 bg-blue-600 rounded-full blur-[120px] opacity-20" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-600 rounded-full blur-[150px] opacity-20" />
@@ -85,6 +86,7 @@ export default function Hero() {
             >
               Email
             </a>
+
           </div>
         </motion.div>
 
