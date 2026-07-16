@@ -74,7 +74,7 @@ const projects = [
     ],
 
     github: "https://github.com/Srinivas-Git04/memory-game",
-    demo: "",
+    demo: "https://memory-game-three-blush.vercel.app",
   },
 
 ];
@@ -119,13 +119,15 @@ export default function Projects() {
                 height={450}
                 className="
                 w-full
-                h-60
+                h-50
                 object-cover
                 group-hover:scale-110
                 transition-transform
                 duration-700
                 "
-                />                
+                />
+
+        <div className="pl-4">
 
             <h3 className="text-2xl font-bold">
               {project.title}
@@ -194,7 +196,7 @@ export default function Projects() {
 
           </div>
 
-
+        </div>        
         ))}
 
 
