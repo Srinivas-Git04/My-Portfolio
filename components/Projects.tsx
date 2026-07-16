@@ -73,32 +73,10 @@ const projects = [
       "CSS"
     ],
 
-    github: "",
+    github: "https://github.com/Srinivas-Git04/memory-game",
     demo: "",
   },
 
-  {
-    title: "HangMan Game 🎮",
-    image: "/projects/hangman.png",
-
-    description:
-      "A Python-based word guessing game focused on programming logic.",
-
-    features: [
-      "Game logic",
-      "User interaction",
-      "Python fundamentals",
-    ],
-
-    tech: [
-      "Python"
-    ],
-
-    github:
-      "https://github.com/Srinivas-Git04/HangManGame",
-
-    demo: "",
-  },
 ];
 
 
