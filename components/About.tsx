@@ -37,7 +37,7 @@ export default function About() {
             </h3>
 
             <p className="text-gray-300 leading-8 mb-6">
-              I'm a passionate <span className="text-cyan-400 font-semibold">AI & Machine Learning graduate</span>
+              I'm a passionate <span className="text-cyan-400 font-semibold">AI & Machine Learning graduate </span>
               with a strong interest in building intelligent software,
               scalable web applications, and solving real-world problems
               through technology.
